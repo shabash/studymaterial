@@ -16,6 +16,8 @@ import com.patient.model.Userfields;
 public class Application {
 
 	public static void main(String[] args) {
+		System.out.println("Simple change made for GitHub repor check-in");
+		
 		ClassPathXmlApplicationContext ctx = new ClassPathXmlApplicationContext(
 				"spring.xml");
 		PatientDAO patientDAO = ctx.getBean("PatientDAOJDBCTemplate",
